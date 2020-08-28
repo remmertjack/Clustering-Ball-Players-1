@@ -1,4 +1,4 @@
-Clustering Ball Players
+Clustering Baseball Players
 -------
 *Please email
 <a href="mailto:remmertjack@gmail.com" class="email">remmertjack@gmail.com</a>

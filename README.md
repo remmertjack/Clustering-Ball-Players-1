@@ -1,9 +1,3 @@
-<style>
-body {
-text-align: justify;
-max-width: 800px;
-}
-</style>
 Introduction
 ------------
 

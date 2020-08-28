@@ -1,5 +1,22 @@
 Clustering Ball Players
 -------
+*Please email
+<a href="mailto:remmertjack@gmail.com" class="email">remmertjack@gmail.com</a>
+for any questions, comments, concerns, or discussion points about the analysis presented within.*
+
+### *Abstract*
+The aims of this study were to identify sub-groups of hitters in the MLB.  A total of 450 players were sampled from 2015-2019 given they had at least 400 PA in those years and 100 in 2018 and 125 in 2017 to account for the survivorship basis and issues with identifing aging players hitting styles.  These sub-groups were determined through four different types of Cluster Analysis: K-Means, K-Medoids, Hierarchical Clustering, and Gaussian Mixture Models.  Players were clustered on their BB%, K%, and Quality of Contact %, similar to Statcast's similarity measures for an initial comparison.  Upon applying the various algorithms, K-Means and K-Medoids both found 2 different types to provide the optimal classification, while Hierarchical Clustering and Gaussian Mixture Models showed 3 different types.  Those groups were labeled as Power-Hitters and Table Setters, with the third group as Platoon.  With these classifications, scouts and analysts can utilize them to determine a hitter's profile more objectivly and find suitable replacements for batting roles for upcoming trades. 
+
+### Table of Contents
+1. [Introduction](#introduction)
+1. [Data](#data)
+1. [Clustering Methods](#clustering-methods)
+1. [Results](#results)
+1. [Visualizing and Discussing Clusters](#visualizing-and-discussing-clusters)
+1. [In the Future](#in-the-future)
+
+Introduction
+----
 
 Over the years, I have listened to many baseball commentators talk about
 hitters as they come up to the plate. They say statements such as, “He
@@ -276,7 +293,8 @@ they were Ellipsoidal with variable volume, shape and equal orientation,
 VVE.
 <img src="figs/BIC_method.png" width="75%" style="display: block; margin: auto;" />
 
-#### Visualizing and Discussing Clusters
+Visualizing and Discussing Clusters
+-------
 
 With these clustering objects, we can visualize the clusters in a 2D
 space and their statistical profile using radar charts. We already
@@ -382,7 +400,8 @@ also be a Power-Hitter. I think my point is, when we are doing some
 subjective analysis like clustering, the results need to have
 probabilities attached to them.
 
-### Conclusions
+Conclusions
+-------
 
 Hopefully, this work shows first and foremost there are other methods
 besides K-Means that work and in my opinion are much better because they
@@ -428,9 +447,9 @@ useful for commentators that are hedgehogs, I prefer to be a fox
 (credits to Nate Silver for that analogy). Players can have aspects from
 multiple groups.
 
-### Comments and Questions???
+### Comments and Questions?
 
 Please email
 <a href="mailto:remmertjack@gmail.com" class="email">remmertjack@gmail.com</a>
 for any questions, comments, concerns, or discussion points about the
-results. Would love to hear everybody’s feedback.
+analysis.

@@ -1,6 +1,3 @@
-Introduction
-------------
-
 Over the years, I have listened to many baseball commentators talk about
 hitters as they come up to the plate. They say statements such as, “He
 is a pull hitter.”, “He hits for power!”, “Gets on base a lot.”, “Rarely
@@ -184,7 +181,7 @@ distributions, *x1* and *x2* in orange and their mixture model in blue.
 In 2 dimensions, with different variables, we could something that looks
 similar to the contour lines on a map, Figure 2.
 
-<img src="part1_files/figure-markdown_github/gmm_dimensional-1.png" width="50%" /><img src="part1_files/figure-markdown_github/gmm_dimensional-2.png" width="50%" />
+<img src="figs/density.png" width="50%" /><img src="figs/density2d.png" width="50%" />
 
 GMM assume there are a certain number of Gaussian distributions, which
 each represent a cluster, with corresponding mean and covariance. Thus,
@@ -260,7 +257,7 @@ optimal number based on the majority rule. Similarly, when implementing
 K-Medoids, 2 clusters were also determined when using the Silhouette
 Index as the validation index.
 
-<img src="part1_files/figure-markdown_github/k_results-1.png" width="50%" /><img src="part1_files/figure-markdown_github/k_results-2.png" width="50%" />
+<img src="figs/kmeans_index.png" width="50%" /><img src="figs/kmedoids_index.png" width="50%" />
 
 #### Hierarchical Analysis with Dendograms
 
@@ -268,7 +265,7 @@ When clustering using Complete linkage and Euclidean distance, 13
 indexes determined 3 clusters as the optimal classification and
 presented the following structure.
 
-<img src="part1_files/figure-markdown_github/hc_results-1.png" width="50%" /><img src="part1_files/figure-markdown_github/hc_results-2.png" width="50%" />
+<img src="figs/hc_index.png" width="50%" /><img src="figs/hc_dendro.png" width="50%" />
 
 #### Gaussian Mixture Models
 
@@ -284,7 +281,7 @@ With these clustering objects, we can visualize the clusters in a 2D
 space and their statistical profile using radar charts. We already
 visualized the results of the HC method above as the dendrogram.
 
-<img src="figs/kmeans_.png" width="33%" /><img src="figs/kmediods_.png" width="33%" /><img src="figs/gmm_.png" width="33%" />
+<img src="figs/kmeans_.png" width="33%" /><img src="figs/kmedoids_.png" width="33%" /><img src="figs/gmm_.png" width="33%" />
 
 Most noticeably is the amount of variance that we explain the
 dimensions. In the case when we used the Euclidean distance and GMM, we
@@ -340,9 +337,9 @@ of consistency as the other two groups. They may suffer from not having
 the same amount of playing time, thus there is probably more variance
 within this group.
 
-<img src="part1_files/figure-markdown_github/k_radars-1.png" width="50%" /><img src="part1_files/figure-markdown_github/k_radars-2.png" width="50%" />
+<img src="figs/kmeans_radar.png" width="50%" /><img src="figs/kmedoids_radar.png" width="50%" />
 
-<img src="part1_files/figure-markdown_github/hc_gmm_radars-1.png" width="50%" /><img src="part1_files/figure-markdown_github/hc_gmm_radars-2.png" width="50%" />
+<img src="figs/hc_radar.png" width="50%" /><img src="figs/gmm_radar.png" width="50%" />
 
 Well, probably the question that people care about is: Who are in these
 groups? For the full output, it is in the Cluster Results section. Some

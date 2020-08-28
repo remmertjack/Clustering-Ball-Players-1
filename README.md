@@ -1,3 +1,6 @@
+Clustering Ball Players
+-------
+
 Over the years, I have listened to many baseball commentators talk about
 hitters as they come up to the plate. They say statements such as, “He
 is a pull hitter.”, “He hits for power!”, “Gets on base a lot.”, “Rarely
@@ -8,9 +11,8 @@ Throwing Strength, Defensive skills, Hitting for Average, and Hitting
 for Power. Thus, a logical question is what qualities determine these
 types of hitters? Who else is comparable to them?
 
-If you are thinking this question sounds similar to Statcast’s
-similarity measures, [found
-here](https://baseballsavant.mlb.com/affinity-pitchersAndHitters-byHittingProfile#players=hitters&player=545361-R&s=0.5),
+If you are thinking this question sounds similar to [Statcast’s
+similarity measures](https://baseballsavant.mlb.com/affinity-pitchersAndHitters-byHittingProfile#players=hitters&player=545361-R&s=0.5),
 is because it is. In my case, I want to find different groups or styles
 of players, whereas Statcast is interested in finding how similar
 players are to one another. Although analyzing how similar two players
@@ -85,7 +87,7 @@ of how to contextualize players.
 
 ***For those interested in the details for each method, the following
 section will be of most interest. For those looking for the results,
-feel free to skip to the Results. ***
+feel free to skip to the Results.***
 
 #### K-Means and K-Medoids
 
@@ -241,8 +243,7 @@ an independent parameter for calculating BIC. Thus, we are maximizing
 the BIC when using this package. I am going to skip the details as to
 what exactly is going on because here because they are not totally
 important in this study, but a good explanation can be found on
-cross-validation
-[here](https://stats.stackexchange.com/questions/237220/mclust-model-selection).
+[Cross-Validated](https://stats.stackexchange.com/questions/237220/mclust-model-selection).
 This type of process, maximizing a value when we generally minimize it,
 is also found in other processes like sklearn’s cross validation package
 with regression and Mean Square Error, for those curious.

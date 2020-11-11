@@ -1,8 +1,14 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 Clustering Baseball Players
 -------
 *Please email
 <a href="mailto:remmertjack@gmail.com" class="email">remmertjack@gmail.com</a>
 for any questions, comments, concerns, or discussion points about the analysis presented within.*
+*For the code used for this project, please [clustering_part1](https://github.com/remmertjack/Clustering-Baseball-Players-Part-1/blob/master/clustering_part1.R) found in the main repository*
 
 ### *Abstract*
 The aim of this study was to identify the different hitting styles of players in the MLB.  A total of 450 players were sampled from 2015-2019 given they had at least 400 total PA, 100 PA in 2018 and 125 PA in 2017 to account for the survivorship basis and issues with identifying aging player's hitting styles.  These sub-groups were determined using four different types of Cluster Analysis: K-Means, K-Medoids, Hierarchical Clustering, and Gaussian Mixture Models.  Players were clustered on their BB%, K%, and Quality of Contact %, similar to Statcast's similarity measures for an initial comparison.  Upon applying the various algorithms, K-Means and K-Medoids both found 2 hitters, while Hierarchical Clustering and Gaussian Mixture Models showed 3 different types of hitters.  These types of hitters were labeled as Power-Hitters and Table Setters, with the third group as Platoon in the case of Hierarchical Clustering and Gaussian Mixture Models.  Scouts and analysts can utilize them to determine a hitter's profile objectively and find suitable replacements for batting roles for upcoming trades.

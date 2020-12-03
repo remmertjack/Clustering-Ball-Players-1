@@ -59,15 +59,14 @@ An original total of 548 players were sampled given they had a minimum
 of 400 PA between 2015-2019. This dataset was further refined to remove
 players who had less than 100 PA in 2018 and less than 125 PA in 2017.
 This reduction process was implemented to account for any survivorship
-basis and player’s missing time due to injuries. Some additional players
-were included such as Miguel Andujar, Travis Jankowski, Preston Tucker,
-Ryan Flaherty, Bobby Wilson, Peter Bourjos, and Rene Rivera.
-Additionally, some players did retire in the timeframe like A.J. Ellis, but were included as there was no efficient way to check them other than a manual search.
+basis and player’s missing time due to injuries.
 While this favors players who have played
 more recently, given Statcast’s Expected Stats and Quality of Contact
-only goes back to 2015, I did not think it correct to evaluate an aging
-player’s last few years. I could have decomposed each year of a player’s
-performance, but Statcast does not like it when you load a lot of data. Thus, the total sample size of players was 450.
+only goes back to 2015, I do not think it correct to evaluate an aging
+player’s last few years. However, they were included as there was no efficient way to check them other than a manual search.
+I could have decomposed the analysis on a per year basis, but Statcast does not like it when you load a lot of data. Lastly, some additional players
+were included such as Miguel Andujar, Travis Jankowski, Preston Tucker,
+Ryan Flaherty, Bobby Wilson, Peter Bourjos, and Rene Rivera. Therefore, the total sample size of players was 450.
 
 For part 1 of this analysis, I clustered players on their BB%, K%, and
 Quality of Contact rates using a few different methods. In the future, I

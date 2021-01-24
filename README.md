@@ -134,7 +134,7 @@ average silhouette value for my clusters in testing.
 #### Hierarchical Methods
 
 Hierarchical Clustering builds tree diagrams that show some hierarchy.
-Similar to an organizational charts with a CEO at the top and the different
+Similar to an organizational chart with a CEO at the top and the different
 departments below them. The approach to creating these tree diagrams, or
 dendrograms, are either top-down, “Divisive”, or bottom-up,
 “Agglomerative”. In top-down, we start with 1 cluster and try to split
@@ -282,10 +282,10 @@ visualized the results of the HC method above as the dendrogram.
 
 <img src="figs/kmeans_.png" width="33%" /><img src="figs/kmedoids_.png" width="33%" /><img src="figs/gmm_.png" width="33%" />
 
-Most noticeabe is the amount of variance that is explained in the
+Most noticeable is the amount of variance that is explained in the
 dimensions. Using Euclidean distance in K-Means and GMM, we
 only explained 56% of the data in 2D, whereas when we changed to the
-Minkowski distance, we were able to explain 62% of the variance. Overall
+Minkowski distance, we were able to explain 62% of the variance. Overall,
 this is not a tremendous amount within our dataset, and some believe it
 should be at least 60%. In order to look at the variables that accounted
 for the most variance, we can look at a biplot of the variables, using Euclidean distance. Here we
@@ -303,7 +303,7 @@ that assumes a hard assignment (no probabilities) and the identity
 matrix is used for the covariance. Thus, we are operating in the same
 dimensional space for both GMM and K-Means.
 
-In analyzing the 2D plots, the question are: Does the dataset contain meaningful clusters, as in
+In analyzing the 2D plots, the question is: Does the dataset contain meaningful clusters, as in
 a non-random structure or not? We call this assessing cluster tendency.
 To test, I used the Hopkins statistic. In implementing this test, we are
 testing the alternative hypothesis that the dataset is not uniformly
